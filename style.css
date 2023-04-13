@@ -1,15 +1,14 @@
 
-body{
+ *{
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 header{
 	background-color: #0020F4;
 	height: 388px;
-
 }
-
 .header-link{
-	
 	text-decoration: none;
 	color: #FFFFFF;
 
@@ -18,7 +17,36 @@ header{
 	margin-left: 200px;
 	display: inline-block;
 	vertical-align: middle;
-
+}
+.text-section{
+   text-align:lefts;
+   padding-left: 307px;
+   left: 485px;
+   width: 951px;
+   height: 177px;
+}
+.container-text{
+	max-width:1195px;
+	margin: 0 auto;
+}
+.text-section p{
+	letter-spacing: 0px;
+    color: #171717;
+    font-size: 16px;
+}
+.information-button{
+	margin-left: 307px;
+	border-radius: 28px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	opacity: 1;
+	background-color: #0A22F4;
+	width: 341px;
+	height: 55px;
+	font-size: 16px;
+	font-weight: bold;
+}
 }
 .header-ul{
 	list-style: none;
@@ -27,12 +55,6 @@ header{
 .header-li{
 	display:inline-block;
 	margin:30px }
-  
-  *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 footer{
 	background:blue;
 	display: flex; 

@@ -7,6 +7,33 @@
 	<title></title>
 </head>
 <body>
+	<header>
+		<a href="#">
+			<img src="logo.svg" alt="logo">
+		</a>
+		<nav class="header-nav">
+			<ul class="header-ul">
+				<li class="header-li">
+					<a class="header-link" href="#">მთავარი</a>
+				</li>
+				<li class="header-li">
+					<a class="header-link"  href="#">ჩვენ შესახებ</a>
+				</li>
+				<li class="header-li">
+					<a class="header-link"  href="#">სერვისები</a>
+				</li>
+				<li class="header-li">
+					<a class="header-link"  href="#">პროექტები</a>
+				</li>
+				<li class="header-li">
+					<a class="header-link"  href="#">პარტნიორები</a>
+				</li>
+				<li class="header-li">
+					<a class="header-link"  href="#">კონტაქტი</a>
+				</li>
+			</ul>
+		</nav>	
+	</header>
 	<section class="text-section">
 		<div class="container-text">
 			<p>ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.</p>
@@ -15,6 +42,45 @@
 			<button class="information-button"> დამატებითი ინფორმაცია</button>	
 		</div>		
 	</section>
-
+	<footer>
+		<div>
+			<div class="basic-info">
+				<h2 class="contact">კონტაქტი</h2>
+				<p class="lorem">Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+				<img src="location.jpg" alt="location">
+			</div>
+			<div class="phone-numbers">
+				<div class="icon-wrapper">
+					<img class="icon" src="phone-icon.png">
+					<p>############</p>
+				</div>
+				<div class="icon-wrapper">
+					<img class="icon" src="phone-icon.png">
+					<p>############</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<form class="main-info">
+				<div>
+					<label for="name">სახელი,გვარი</label>
+					<input type="name" name="name" id="name">
+				</div>
+				<div>
+					<label for="email">ელ.ფოსტა</label>
+					<input type="email" name="email" id="email">
+				</div>
+				<div>
+					<label for="number">ელეფონის ნომერი</label>
+					<input type="number" name="number" id="number">
+				</div>
+				<div>
+					<label for="chat">შეტყობინება</label>
+					<textarea id="chat"></textarea>
+				</div>
+				<button class="send">გაგზავნა</button>
+			</form>
+		</div>
+	</footer>
 </body>
 </html>

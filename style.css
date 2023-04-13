@@ -1,9 +1,32 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: #0020F4;
+	height: 388px;
+}
+.header-link{
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+.header-nav{
+	margin-left: 200px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
+.header-ul{
+	list-style: none;
+
+}
+.header-li{
+	display:inline-block;
+	margin:30px
+  }
+  
 .container {
     text-align: center;
     max-width: 1195px;
@@ -35,5 +58,68 @@
     height: 100%;
     object-fit: cover;
 }
-
+.text-section{
+   text-align:lefts;
+   padding-left: 307px;
+   left: 485px;
+   width: 951px;
+   height: 177px;
+}
+.container-text{
+	max-width:1195px;
+	margin: 0 auto;
+}
+.text-section p{
+	letter-spacing: 0px;
+    color: #171717;
+    font-size: 16px;
+}
+.information-button{
+	margin-left: 307px;
+	border-radius: 28px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	opacity: 1;
+	background-color: #0A22F4;
+	width: 341px;
+	height: 55px;
+	font-size: 16px;
+	font-weight: bold;
+}
+footer{
+	background:blue;
+	display: flex; 
+	padding-bottom:200px ;
+}
+.basic-info{
+	padding: 275px 503px 0px 240px;
+	width:1150px;
+	color: whitesmoke;
+}
+.contact{
+	margin-bottom: 30px;
+}
+.lorem{
+	margin-bottom: 58px;
+}
+.icon-wrapper{
+	display: flex;
+	margin-right: 30px;
+}
+.icon{
+	width: 40px;
+}
+.phone-numbers{
+	margin:60px 25px 0px 240px;
+	display:flex;
+}
+.send{
+	padding: 15px;
+	background: whitesmoke;
+	border-radius: 40px;
+}
+.main-info{
+	margin: 373px 200px 0px 0px;
+}
 

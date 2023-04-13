@@ -1,4 +1,4 @@
- *{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -32,7 +32,6 @@ header{
     max-width: 1195px;
     margin: 0 auto;
     margin-top: 200px;
-    
 }
 
 .just-text p {
@@ -91,9 +90,10 @@ footer{
 	background:blue;
 	display: flex; 
 	padding-bottom:200px ;
+	margin-top: 700px;
 }
 .basic-info{
-	padding: 275px 503px 0px 240px;
+	margin: 275px 503px 0px 240px;
 	width:1150px;
 	color: whitesmoke;
 }

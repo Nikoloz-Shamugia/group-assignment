@@ -12,8 +12,9 @@
     
 }
 
-.just-text {
-    margin-right: -2px;
+.just-text p {
+    padding-top: 20px;
+    padding-right: 820px;
 }
 
 .mein-photo-rows {
@@ -26,7 +27,7 @@
     width: 19.73%;
     height: 219px;
     display: inline-block;
-
+    padding-top: 30px;
 }
 
 .photo-rows img,  .mein-photo-rows  img {

@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+footer{
+	background:blue;
+	display: flex; 
+	padding-bottom:200px ;
+}
+.basic-info{
+	padding: 275px 503px 0px 240px;
+	width:1150px;
+	color: whitesmoke;
+}
+.contact{
+	margin-bottom: 30px;
+}
+.lorem{
+	margin-bottom: 58px;
+}
+.icon-wrapper{
+	display: flex;
+	margin-right: 30px;
+}
+.icon{
+	width: 40px;
+}
+.phone-numbers{
+	margin:60px 25px 0px 240px;
+	display:flex;
+}
+.send{
+	padding: 15px;
+	background: whitesmoke;
+	border-radius: 40px;
+}
+.main-info{
+	margin: 373px 200px 0px 0px;
+}
